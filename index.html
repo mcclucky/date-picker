@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="index.css" rel="stylesheet" type="text/css" />
+		<style>
+			body{
+				margin: 0px;
+				padding: 0px;
+			}
+			.calendar-input {
+				position: absolute;
+				left: 300px;
+			}
+			.calendar-input h3 {
+				color: #74e7cc;
+			}
+			.calendar-input input {
+				width: 260px;
+				height: 30px;
+				border: 1px solid #f2f2f2;
+				border-radius: 5px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<div class="calendar-input">
+				<h3>请选择日期</h3>
+				<input type="text" />
+			</div>
+		</div>
+		<script src="index.js"></script>
+		<script>
+//			$("calendar-input").onclick();
+		window.detepicker.init();
+		</script>
+	</body>
+
+</html>
